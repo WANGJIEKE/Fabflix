@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672D0D57247EE0AE00E1D5A0 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672D0D55247EE0AE00E1D5A0 /* LoadingCell.swift */; };
+		672D0D58247EE0AE00E1D5A0 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672D0D56247EE0AE00E1D5A0 /* LoadingCell.xib */; };
+		67A7211D247C8840008D70FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7211C247C8840008D70FD /* AppDelegate.swift */; };
+		67A7211F247C8840008D70FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7211E247C8840008D70FD /* SceneDelegate.swift */; };
+		67A72121247C8840008D70FD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A72120247C8840008D70FD /* LogInViewController.swift */; };
+		67A72124247C8840008D70FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A72122247C8840008D70FD /* Main.storyboard */; };
+		67A72126247C8843008D70FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A72125247C8843008D70FD /* Assets.xcassets */; };
+		67A72133247C9EE1008D70FD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A72132247C9EE1008D70FD /* Util.swift */; };
+		67A72138247CD2F0008D70FD /* LogInResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A72137247CD2F0008D70FD /* LogInResponse.swift */; };
+		67A7213A247CD313008D70FD /* MovieListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A72139247CD313008D70FD /* MovieListResponse.swift */; };
+		67A7213C247CD8A5008D70FD /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7213B247CD8A5008D70FD /* MovieListViewController.swift */; };
+		67A7213E247CFB5A008D70FD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7213D247CFB5A008D70FD /* Movie.swift */; };
+		67A72140247CFBF2008D70FD /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7213F247CFBF2008D70FD /* Star.swift */; };
+		67A72142247D0833008D70FD /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A72141247D0833008D70FD /* MovieDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		672D0D55247EE0AE00E1D5A0 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		672D0D56247EE0AE00E1D5A0 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		67A72119247C8840008D70FD /* Fabflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fabflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A7211C247C8840008D70FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67A7211E247C8840008D70FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67A72120247C8840008D70FD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		67A72123247C8840008D70FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67A72125247C8843008D70FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A7212A247C8843008D70FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A72132247C9EE1008D70FD /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		67A72137247CD2F0008D70FD /* LogInResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInResponse.swift; sourceTree = "<group>"; };
+		67A72139247CD313008D70FD /* MovieListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListResponse.swift; sourceTree = "<group>"; };
+		67A7213B247CD8A5008D70FD /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		67A7213D247CFB5A008D70FD /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		67A7213F247CFBF2008D70FD /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		67A72141247D0833008D70FD /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A72116247C8840008D70FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		672D0D54247EE06A00E1D5A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67A72122247C8840008D70FD /* Main.storyboard */,
+				672D0D56247EE0AE00E1D5A0 /* LoadingCell.xib */,
+				672D0D55247EE0AE00E1D5A0 /* LoadingCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67A72110247C8840008D70FD = {
+			isa = PBXGroup;
+			children = (
+				67A7211B247C8840008D70FD /* Fabflix */,
+				67A7211A247C8840008D70FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67A7211A247C8840008D70FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A72119247C8840008D70FD /* Fabflix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A7211B247C8840008D70FD /* Fabflix */ = {
+			isa = PBXGroup;
+			children = (
+				672D0D54247EE06A00E1D5A0 /* View */,
+				67A72136247CD2D3008D70FD /* Model */,
+				67A72130247C9EBC008D70FD /* ViewController */,
+				67A7211C247C8840008D70FD /* AppDelegate.swift */,
+				67A7211E247C8840008D70FD /* SceneDelegate.swift */,
+				67A72132247C9EE1008D70FD /* Util.swift */,
+				67A72125247C8843008D70FD /* Assets.xcassets */,
+				67A7212A247C8843008D70FD /* Info.plist */,
+			);
+			path = Fabflix;
+			sourceTree = "<group>";
+		};
+		67A72130247C9EBC008D70FD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				67A72120247C8840008D70FD /* LogInViewController.swift */,
+				67A7213B247CD8A5008D70FD /* MovieListViewController.swift */,
+				67A72141247D0833008D70FD /* MovieDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		67A72136247CD2D3008D70FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67A72137247CD2F0008D70FD /* LogInResponse.swift */,
+				67A72139247CD313008D70FD /* MovieListResponse.swift */,
+				67A7213D247CFB5A008D70FD /* Movie.swift */,
+				67A7213F247CFBF2008D70FD /* Star.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67A72118247C8840008D70FD /* Fabflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7212D247C8843008D70FD /* Build configuration list for PBXNativeTarget "Fabflix" */;
+			buildPhases = (
+				67A72115247C8840008D70FD /* Sources */,
+				67A72116247C8840008D70FD /* Frameworks */,
+				67A72117247C8840008D70FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fabflix;
+			productName = Fabflix;
+			productReference = 67A72119247C8840008D70FD /* Fabflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A72111247C8840008D70FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = wangtongjie;
+				TargetAttributes = {
+					67A72118247C8840008D70FD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 67A72114247C8840008D70FD /* Build configuration list for PBXProject "Fabflix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67A72110247C8840008D70FD;
+			productRefGroup = 67A7211A247C8840008D70FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67A72118247C8840008D70FD /* Fabflix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67A72117247C8840008D70FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A72126247C8843008D70FD /* Assets.xcassets in Resources */,
+				672D0D58247EE0AE00E1D5A0 /* LoadingCell.xib in Resources */,
+				67A72124247C8840008D70FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67A72115247C8840008D70FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A72140247CFBF2008D70FD /* Star.swift in Sources */,
+				67A72138247CD2F0008D70FD /* LogInResponse.swift in Sources */,
+				67A72121247C8840008D70FD /* LogInViewController.swift in Sources */,
+				672D0D57247EE0AE00E1D5A0 /* LoadingCell.swift in Sources */,
+				67A7213E247CFB5A008D70FD /* Movie.swift in Sources */,
+				67A7211D247C8840008D70FD /* AppDelegate.swift in Sources */,
+				67A7211F247C8840008D70FD /* SceneDelegate.swift in Sources */,
+				67A72142247D0833008D70FD /* MovieDetailViewController.swift in Sources */,
+				67A72133247C9EE1008D70FD /* Util.swift in Sources */,
+				67A7213C247CD8A5008D70FD /* MovieListViewController.swift in Sources */,
+				67A7213A247CD313008D70FD /* MovieListResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67A72122247C8840008D70FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A72123247C8840008D70FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67A7212B247C8843008D70FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67A7212C247C8843008D70FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67A7212E247C8843008D70FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG62JAD8S2;
+				INFOPLIST_FILE = Fabflix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangtongjie.Fabflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		67A7212F247C8843008D70FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG62JAD8S2;
+				INFOPLIST_FILE = Fabflix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangtongjie.Fabflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67A72114247C8840008D70FD /* Build configuration list for PBXProject "Fabflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A7212B247C8843008D70FD /* Debug */,
+				67A7212C247C8843008D70FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A7212D247C8843008D70FD /* Build configuration list for PBXNativeTarget "Fabflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A7212E247C8843008D70FD /* Debug */,
+				67A7212F247C8843008D70FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67A72111247C8840008D70FD /* Project object */;
+}
